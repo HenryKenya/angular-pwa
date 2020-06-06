@@ -1,4 +1,5 @@
-<div class="posts-wrapper">
-  <h1>Title</h1>
-  <p>Body</p>
+<div class="posts-wrapper" *ngFor="let post of posts">
+  <h4>{{post.title}}</h4>
+  <p>{{post.body}}</p>
+  <hr />
 </div>

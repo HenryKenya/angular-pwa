@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import {PostsModule} from './components/posts/posts.module';
+import {ServicesModule} from './services/services.module';
 
 @NgModule({
   declarations: [
@@ -10,7 +11,8 @@ import {PostsModule} from './components/posts/posts.module';
   ],
   imports: [
     BrowserModule,
-    PostsModule
+    PostsModule,
+    ServicesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
